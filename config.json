@@ -1,0 +1,8 @@
+{
+  "dev": {},
+  "sepolia": {
+    "Floppy": "0x45a49f41d91aae05a48a7b7901804c92e18cbba2",
+    "Vault": "0x168cba45972dc41cdcf3dc627e73a887faeed6a5"
+  },
+  "main": {}
+}

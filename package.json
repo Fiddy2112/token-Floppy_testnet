@@ -1,0 +1,27 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat ignition deploy ignition/modules/Token.ts --network sepolia --deployment-id sepolia-deployment",
+    "verify": "hardhat ignition verify sepolia-deployment"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.22.2",
+    "typescript": "^5.4.3",
+    "web3": "^4.7.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "chai-as-promised": "^7.1.1"
+  }
+}
